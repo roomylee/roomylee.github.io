@@ -109,15 +109,12 @@ defaults:
       hidden: false 
       
 plugins:
-  - github-pages
-  - html-proofer
-  - jekyll-admin
-  - jekyll-fontawesome-svg
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-paginate-v2",
+  - jekyll-admin
+  - jekyll-paginate-v2
 
 jekyll-mentions:
     base_url: https://github.com
