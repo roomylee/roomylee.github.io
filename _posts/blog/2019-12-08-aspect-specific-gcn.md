@@ -5,7 +5,7 @@ date: 2019-12-08
 headerImage: false
 tag:
 - aspect-based-sentiment-analysis
-- graph-convolutional-networks
+- graph-convolutional-network
 - aspect-specific-graph-convolutional-network
 - asgcn
 category: blog

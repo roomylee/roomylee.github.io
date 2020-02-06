@@ -5,7 +5,7 @@ date: 2018-04-21
 headerImage: false
 tag:
 - text-classification
-- recurrent-convolutional-neural-networks
+- recurrent-convolutional-neural-network
 - rcnn
 category: blog
 author: roomylee
