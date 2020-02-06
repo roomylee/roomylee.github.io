@@ -43,7 +43,7 @@ author: roomylee
 
 ## 2. Research Challenges
 
-### a) Categorization of emotions
+#### a) Categorization of emotions
 
 - Emotion은 보통 categorical 또는 dimensional, 두가지 방법 중 하나로 정의함
   - Categorical은 모델이 특정한 수의 discrete한 감정 중 하나로 분류하는 것
@@ -66,7 +66,7 @@ author: roomylee
   - DailyDialogue(Li et al., 2017): categorical
   - EmoContext(Chatterjee et al., 2019): categorical (happiness, sadness, anger, others)
 
-### b) Basis of emotion annotation
+#### b) Basis of emotion annotation
 
 - Emotion annotation은 annotator의 주관적 판단에 의존적임
 - 이런 점을 보호하기 위해 다수의 사람이 기존 annotation을 prior로 삼아 accurate하는 작업을 하기도 함
@@ -75,7 +75,7 @@ author: roomylee
 - 또한 annotator는 화자의 상황을 고려해야 함
   - 예를 들어, "Lehman Brothers stock is plummeting!!" 라는 발화에 대한 감정은 화자가 (주식을 통해) 이득을 봤는지에 따라 아주 달라질 수 있다는 것
 
-### c) Conversational context modeling
+#### c) Conversational context modeling
 
 - 최근 contextual sentence/word embedding에 대한 state-of-the-art 연구가 많이 진행되고 있음
 - 하지만 대화에서는 emotion dynamics로 인해 context representation을 만들기 어려움
@@ -85,6 +85,6 @@ author: roomylee
 - Context modeling은 짧은 발화를 분류하는데 상당히 도움이 됨
   - "yeah", "okay" 등은 문맥을 보지 않으면 어떤 감정인지 알 수가 없음
 
-### d) Speaker specific modeling
+#### d) Speaker specific modeling
 
 -
