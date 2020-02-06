@@ -66,14 +66,14 @@ width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-    enabled: false
+    enabled: true
     sort_reverse: true # display recent posts first
     title: ':title' # Changing this will mess up the header display logic
-    per_page: 5 
+    per_page: 10
     permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -104,10 +104,10 @@ defaults:
       path: "" # an empty string here means all files in the project
       layout: "post"
     values:
-      # setting all post to not hidden by default, 
+      # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
-      hidden: false 
-      
+      hidden: false
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist

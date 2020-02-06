@@ -1,7 +1,7 @@
 ---
 title: "Emotion Recognition in Conversation: Research Challenges, Datasets, and Recent Advances"
 layout: post
-date: 2020-02-03 16:20
+date: 2020-02-03
 headerImage: false
 tag:
 - emotion-recognition-in-coversation
@@ -10,9 +10,7 @@ category: blog
 author: roomylee
 ---
 
----
-
-- Paper Link: [https://arxiv.org/abs/1905.02947](https://arxiv.org/abs/1905.02947)
+- Paper Link: <https://arxiv.org/abs/1905.02947>
 - Author
   - Soujanya Poria, Navonil Majumder, Rada Mihalcea, Eduard Hovy
 - Published at
@@ -51,7 +49,7 @@ author: roomylee
   - Categorical은 모델이 특정한 수의 discrete한 감정 중 하나로 분류하는 것
   - Dimensional은 continuous multi-dimensional space에 감정을 point로 표현하는 것
 
-![figure4](/assets/images/blog/2020-02-03-emotion-recognition-in-conversation/figure4.png)
+![figure4](/assets/images/blog/2020-02-03-emotion-recognition-in-conversation/figure4.png){: .small-image}
 
 1. Categorical
    - Categorical 방법에서는 Plutchik의 wheel of emotion이 가장 널리 쓰이며 8가지의 감정으로 정의함
