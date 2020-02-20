@@ -1,5 +1,5 @@
 ---
-title: "Incorporating Relation Paths in Neural Relation Extraction"
+title: "Incorporating Relation Paths in Neural Relation Extraction (EMNLP 2017)"
 layout: post
 date: 2018-02-27
 headerImage: false

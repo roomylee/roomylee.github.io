@@ -1,5 +1,5 @@
 ---
-title: "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks"
+title: "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks (EMNLP 2015)"
 layout: post
 date: 2018-02-20
 headerImage: false

@@ -1,5 +1,5 @@
 ---
-title: "Emotion Recognition in Conversation: Research Challenges, Datasets, and Recent Advances"
+title: "[WIP] Emotion Recognition in Conversation: Research Challenges, Datasets, and Recent Advances (arXiv 2019)"
 layout: post
 date: 2020-02-03
 headerImage: false

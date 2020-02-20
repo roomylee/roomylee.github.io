@@ -1,5 +1,5 @@
 ---
-title: "Convolution Neural Network for Relation Extraction"
+title: "Convolution Neural Network for Relation Extraction (ADMA 2013)"
 layout: post
 date: 2018-02-12
 headerImage: false

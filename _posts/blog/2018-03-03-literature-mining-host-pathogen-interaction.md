@@ -1,5 +1,5 @@
 ---
-title: "Literature mining of host–pathogen interactions: comparing feature-based supervised learning and language-based approaches"
+title: "Literature mining of host–pathogen interactions: comparing feature-based supervised learning and language-based approaches (Bioinformatics 2012)"
 layout: post
 date: 2018-03-03
 headerImage: false

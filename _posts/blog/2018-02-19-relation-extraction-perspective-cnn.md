@@ -1,5 +1,5 @@
 ---
-title: "Relation Extraction: Perspective from Convolutional Neural Networks"
+title: "Relation Extraction: Perspective from Convolutional Neural Networks (NAACL 2015)"
 layout: post
 date: 2018-02-19
 headerImage: false

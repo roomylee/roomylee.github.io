@@ -1,5 +1,5 @@
 ---
-title: "Character-Aware Neural Language Models"
+title: "Character-Aware Neural Language Models (AAAI 2016)"
 layout: post
 date: 2018-03-29
 headerImage: false

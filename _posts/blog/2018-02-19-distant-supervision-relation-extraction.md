@@ -1,5 +1,5 @@
 ---
-title: "Distant supervision for relation extraction without labeled data"
+title: "Distant supervision for relation extraction without labeled data (ACL 2009)"
 layout: post
 date: 2018-03-29
 headerImage: false

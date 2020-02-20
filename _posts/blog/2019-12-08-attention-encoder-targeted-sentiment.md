@@ -1,5 +1,5 @@
 ---
-title: "Attentional Encoder Network for Targeted Sentiment Classification"
+title: "Attentional Encoder Network for Targeted Sentiment Classification (arXiv 2019)"
 layout: post
 date: 2019-12-08
 headerImage: false

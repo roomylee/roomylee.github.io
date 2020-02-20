@@ -1,5 +1,5 @@
 ---
-title: "Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks"
+title: "Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks (EMNLP 2019)"
 layout: post
 date: 2019-12-08
 headerImage: false

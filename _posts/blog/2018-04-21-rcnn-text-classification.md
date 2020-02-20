@@ -1,5 +1,5 @@
 ---
-title: "Recurrent Convolutional Neural Networks for Text Classification"
+title: "Recurrent Convolutional Neural Networks for Text Classification (AAAI 2015)"
 layout: post
 date: 2018-04-21
 headerImage: false

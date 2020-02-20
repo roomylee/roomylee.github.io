@@ -1,5 +1,5 @@
 ---
-title: "Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks"
+title: "Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks (COLING 2016)"
 layout: post
 date: 2018-02-27
 headerImage: false

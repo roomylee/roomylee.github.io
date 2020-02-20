@@ -1,5 +1,5 @@
 ---
-title: "Relation Classification via Convolutional Deep Neural Network"
+title: "Relation Classification via Convolutional Deep Neural Network (COLING 2014)"
 layout: post
 date: 2018-02-19
 headerImage: false
