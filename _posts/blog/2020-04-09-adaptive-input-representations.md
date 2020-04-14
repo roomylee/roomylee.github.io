@@ -36,18 +36,22 @@ author: roomylee
 - 게다가 Adaptive input representations을 output의 adaptive softmax와 weight tying을 하면  61%나 parameter를 감소시킬 수 있음
 - [Abstract](#abstract)에 언급한 것처럼 많은 성능 향상을 보임
 
+## 2. Related Work
+
+- pass
+
 ## 3. Adaptive Input Representations
 
 ![figure1](/assets/images/blog/2020-04-09-adaptive-input-representations/figure1.png)
 
 - 먼저 a number of clusters that partitions the frequency ordered vocabulary $\mathcal{V}$을 정의함
-  - $\mathcal{V} = \mathcal{V}_1 \cup \mathcal{V}_2, ..., \mathcal{V}_{n-1} \cup \mathcal{V}_n$ such that $\mathcal{V}_i \cap \mathcal{V}_j = \emptyset$ for $\forall i, j$, and $i \neq j$
-  - $\mathcal{V}_1$은 most frequent words의 집합이고, $\mathcal{V}_n$은 least frequent words의 집합
+  - $\mathcal{V} = \mathcal{V_1} \cup \mathcal{V_2}, ..., \mathcal{V_{n-1}} \cup \mathcal{V_n}$ such that $\mathcal{V_i} \cap \mathcal{V_j} = \emptyset$ for $\forall i, j$, and $i \neq j$
+  - $\mathcal{V_1}$은 most frequent words의 집합이고, $\mathcal{V_n}$은 least frequent words의 집합
 - Capacity를 줄이기 위해 각 cluster에 대해서 factor $k$를 이용해서 embedding dimension을 줄임
-  - $\mathcal{V}_1$의 embedding dimension은 $d$, $\mathcal{V}_n$의 dimension은 $\frac{d}{k^{n-1}}$
+  - $\mathcal{V_1}$의 embedding dimension은 $d$, $\mathcal{V_n}$의 dimension은 $\frac{d}{k^{n-1}}$
   - 보통 $k$는 Grave et al. (2017)을 따라 4를 씀
 - 그 다음, linear projections $W_1 \in \mathbb{R}^{d \times d}, ..., W_n \in \mathbb{R}^{d/k^{n-1} \times d}$를 사용하여 각 cluster의 embeddings을 동일한 $d$ dimension으로 매핑하여 concat함 (이후 모델 input에서 편하게 사용하기 위함)
-  - Figure 1이 해당 과정을 잘 표현하고 있으며, 이미 $d$차원인 $mathcal{V}_1$도 마찬가지로 같은 $d$ 차원에 projection을 함
+  - Figure 1이 해당 과정을 잘 표현하고 있으며, 이미 $d$차원인 $\mathcal{V_1}$도 마찬가지로 같은 $d$ 차원에 projection을 함
 - 정리하자면, input words에 대해서 1) 각 단어를 빈도에 따라 cluster에 맞게 partitioning을 하고, 2) 해당 cluster의 embedding lookup을 한 뒤, 3) 모두 동일하게 $d$ 차원으로 projection하고 원래의 순서에 맞게 concat함
 
 #### Weight sharing
